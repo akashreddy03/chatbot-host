@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+    color-scheme: dark;
+}
+
+@layer base {
+    .scrollbar-styles {
+        @apply scrollbar-thin scrollbar-thumb-gray-400;
+    }
+}
